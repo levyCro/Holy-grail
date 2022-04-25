@@ -1,0 +1,70 @@
+.wrapper {
+    background-color: rgb(255, 182, 182);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img {
+    float: right;
+    margin: 10px;
+}
+img:hover {
+  float: left;
+}
+
+.blue {
+    background-color: aqua;
+    float: right;
+}
+
+.red {
+    background-color: crimson;
+    float: left;
+}
+
+.green {
+    background-color: chartreuse;
+    float: right;
+}
+.box {
+    height: 100px;
+    width: 100px;
+}  
+
+.service h2, .service p {
+    color: aquamarine;
+    margin: 10px 0;
+    text-align: center;
+} 
+.service {
+    float: left;
+    background: #eee;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;
+}
+.services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.blocks:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    padding: 10px;
+    background: #ccc;
+    
+}
+.content:hover {
+    clear: both;
+}
